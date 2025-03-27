@@ -31,3 +31,18 @@ python bot.py
 - Toxicity scoring
 - Message categorization
 - Easy to use commands 
+
+**Toxicity Detection**
+The application uses Duc Haba's Friendly_Text_Moderation API to detect toxic content in comments. This API analyzes text and provides toxicity scores across several categories:
+
+General toxicity
+Identity attacks
+Insults
+Obscenity
+Severe toxicity
+Sexual explicit content
+Threats
+You can adjust the "safer" value to control the sensitivity of the toxicity detection. A higher value means less strict filtering (more content will be shown).
+
+Credits
+Friendly_Text_Moderation(https://huggingface.co/spaces/duchaba/Friendly_Text_Moderation) by Duc Haba for toxicity detection
